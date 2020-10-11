@@ -1,0 +1,25 @@
+Page({
+  data:{
+    tops:[
+      {icon:'/images/top/收付款.png',text:'收付款'},
+      {icon:'/images/top/钱包.png',text:'钱包'}
+    ],
+    services1:[
+      {icon:'/images/service/cardRepay.png',text:'信用卡还款'},
+      {icon:'/images/service/mobileTopup.png',text:'手机充值'},
+      {icon:'/images/service/wealth.png',text:'理财通'},
+      {icon:'/images/service/utilities.png',text:'生活缴费'},
+      {icon:'/images/service/qqCoins.png',text:'QQ充值'},
+      {icon:'/images/service/publicService.png',text:'城市服务'},
+      {icon:'/images/service/charity.png',text:'腾讯公益'}
+    ],
+    services2:[
+      {icon:'/images/service/火车票.png',text:'火车票机票'},
+      {icon:'/images/service/滴滴出行.png',text:'滴滴出行'},
+      {icon:'/images/service/insurance.png',text:'企鹅保险'}
+    ],
+    services3:[
+      {icon:'/images/service/健康码.png',text:'防疫健康吗'}
+    ]
+  }
+})

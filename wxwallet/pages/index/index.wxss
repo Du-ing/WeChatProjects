@@ -1,0 +1,65 @@
+.container{
+  background-color:#D3D3D3;
+}
+.topPanel{
+  height: 300rpx;
+  background-color: #3CB371;
+  display: flex;
+  flex-direction: row;
+  margin: 10rpx;
+  /*圆角*/
+  border-radius: 30rpx;
+}
+.box1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 250rpx;
+}
+.box1 image{
+  width: 100rpx;
+  height: 100rpx;
+  margin: 30rpx;
+}
+.box1 text{
+  color: #FFFF00;
+  text-align: center;
+  font-size: 35rpx;
+}
+.servicePanel{
+  background-color: white;
+  margin: 20rpx;
+  border: #D3D3D3 1rpx solid;
+  /*圆角*/
+  border-radius: 30rpx;
+}
+.serviceTitle{
+  height: 60rpx;
+  font-size: 30rpx;
+  border-bottom: #D3D3D3 1rpx solid;
+  color: cadetblue;
+  padding: 20rpx;
+}
+.serviceBlocks{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.box2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33%;
+  height: 230rpx;
+  border: #D3D3D3 1rpx solid; 
+}
+.box2 image{
+  width: 90rpx;
+  height: 90rpx;
+}
+.box2 text{
+  font-size: 30rpx;
+}

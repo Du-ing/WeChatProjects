@@ -1,0 +1,38 @@
+<view class="container">
+  <view class="topPanel">
+    <view class="box1" wx:for="{{tops}}" wx:key="{{index}}">
+      <image src="{{item.icon}}"></image>
+      <text>{{item.text}}</text>
+    </view>
+  </view>
+
+  <view class="servicePanel">
+    <view class="serviceTitle">腾讯服务</view>
+    <view class="serviceBlocks">
+      <view class="box2" wx:for="{{services1}}" wx:key="{{index}}">
+        <image src="{{item.icon}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="servicePanel">
+    <view class="serviceTitle">第三方服务</view>
+    <view class="serviceBlocks">
+      <view class="box2" wx:for="{{services2}}" wx:key="{{index}}">
+        <image src="{{item.icon}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="servicePanel">
+    <view class="serviceTitle">限时推广</view>
+    <view class="serviceBlocks">
+      <view class="box2" wx:for="{{services3}}" wx:key="{{index}}">
+        <image src="{{item.icon}}"></image>
+        <text>{{item.text}}</text>
+      </view>
+    </view>
+  </view>
+</view>
