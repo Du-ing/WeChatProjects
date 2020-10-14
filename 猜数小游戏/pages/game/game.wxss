@@ -1,0 +1,24 @@
+/* pages/game.wxss */
+.container{
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+.title{
+  font-size: 50rpx;
+  font-weight: bold;
+  color: darkorange;
+}
+form{
+  margin: 80rpx auto;
+}
+input{
+  height: 100rpx;
+  border: darkorchid 1rpx solid;
+  border-radius: 20rpx;
+  margin-bottom: 25rpx;
+}
+.tip{
+  font-size: 50rpx;
+  color: deepskyblue;
+}

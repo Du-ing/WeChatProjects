@@ -1,0 +1,8 @@
+<!--pages/about/about.wxml-->
+<view class="container">
+  <text>
+    武汉理工大学
+    计算机科学与技术学院学院 
+    软件1805杜俊
+  </text>
+</view>

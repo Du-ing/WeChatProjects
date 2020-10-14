@@ -1,0 +1,19 @@
+<view class="body">
+  <view class="flex_row">
+    <view class="{{btnc}}" bindtap="c">C</view>
+    <view class="{{btnd}}" bindtap="d">D</view>
+    <view class="{{btne}}" bindtap="e">E</view>
+    <view class="{{btnf}}" bindtap="f">F</view>
+    <view class="{{btng}}" bindtap="g">G</view>
+    <view class="{{btna}}" bindtap="a">A</view>
+    <view class="{{btnb}}" bindtap="b">B</view>
+  </view>
+
+  <view>
+    <image mode="scaleToFill]" src="{{src}}"></image>
+  </view>
+</view>
+
+<view class="foot">
+  <text>制作人：软件1805杜俊</text>
+</view>

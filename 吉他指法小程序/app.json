@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/uk/uk"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#87CEFA",
+    "navigationBarTitleText": "吉他指法",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,16 @@
+<!--pages/game.wxml-->
+<view class="container">
+  <text class="title">猜数字小游戏</text>
+
+  <form>
+    <block wx:if="{{isGameStart}}">
+      <input type="text" placeholder="请输入0~100的数字" bindinput="getNumber"></input>
+      <button type="primary" form-type="reset" bindtap="guess">提交</button>
+    </block>
+    <block wx:else>
+      <button type="defualt" bindtap="reStart">重新开始</button>
+    </block>
+  </form>
+  
+  <text class="tip">{{tip}}</text>
+</view>

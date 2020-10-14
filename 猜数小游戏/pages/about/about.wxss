@@ -1,0 +1,12 @@
+/* pages/about/about.wxss */
+.container{
+  text-align: center;
+  height: 1140rpx;
+  font-size: 50rpx;
+  margin: 20rpx;
+  color: blue;
+  background-color: cornsilk;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
