@@ -1,0 +1,26 @@
+<!--pages/divorce/divorce.wxml-->
+<view class="main">
+  <switch bindchange="changeFlag">是否涉及财产分割</switch>
+  <view class="noFlag" wx:if="{{!flag}}">
+    <text>不涉及财产分割的诉讼费为300元，减半收取为150元</text>
+  </view>
+
+  <view wx:else="{{flag}}">
+    <view class="container">
+      <view class="title">
+        <text>财产标的金额（单位：人民币）:</text>
+      </view>
+      <form bindsubmit="formSubmit" bindreset="formReset">
+        <input name="input" type="number" placeholder="标的金额"></input>
+        <button type="primary" form-type="submit">计算</button>
+        <button form-type="reset">重置</button>
+      </form>
+      <view class="result" wx:if="{{res}}">
+        <text>诉讼费为{{money1}}元，减半收取为{{money2}}元</text>
+      </view>
+      <view class="about">
+        <text>制作人：武汉理工大学 软件1805 杜俊</text>
+      </view>
+    </view>
+  </view>
+</view>

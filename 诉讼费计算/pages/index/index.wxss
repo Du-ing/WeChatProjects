@@ -1,0 +1,27 @@
+.container{
+  height: 1070rpx;
+   display: flex;
+   flex-direction: column;
+   background-color: rgb(227, 235, 216);
+}
+.title{
+  margin: 20rpx auto;
+}
+form{
+  margin: 40rpx auto;
+}
+form input{
+  background-color: rgb(203, 202, 202);
+}
+form button{
+  margin: 30rpx auto;
+}
+.result{
+  color: deeppink;
+  margin: 10rpx auto;
+}
+.about{
+  color: blue;
+  font-size: small;
+  margin: 100rpx auto;
+}
