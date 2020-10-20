@@ -11,10 +11,16 @@
 
 3. 吉他指法小程序
 
-![微信钱包](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/guita.png)
+![吉他指法小程序](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/guita.png)
 
 4. 猜数小游戏
 
-![微信钱包](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/guess_num01.png)
+![猜数小游戏](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/guess_num01.png)
 
-![微信钱包](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/guess_num02.png)
+![猜数小游戏](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/guess_num02.png)
+
+5. 诉讼费计算
+
+![诉讼费计算](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/susong01.png)
+
+![诉讼费计算](https://github.com/Du-ing/WeChatProjects/blob/master/%E5%9B%BE%E7%89%87%E9%A2%84%E8%A7%88/susong02.png)
