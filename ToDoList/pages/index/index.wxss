@@ -1,0 +1,41 @@
+.page{
+  margin: 0 50rpx 50rpx 50rpx;
+  text-align: center;
+}
+.nav{
+  display: flex;
+  flex-direction: row;
+  font-size: 60rpx;
+}
+.nav1{
+  flex: 1;
+  background-color: #FF69B4;
+}
+.nav2{
+  flex: 1;
+  background-color: gray;
+}
+.body{
+  background-color: #E1FFFF;
+}
+.guide{
+  font-size: 50rpx;
+  text-align: left;
+  color: darkorange;
+}
+.list1{
+  font-size: 50rpx;
+  border: 1rpx solid gray;
+}
+.btn{
+  margin: 50rpx 0;
+}
+.area{
+  margin-top: 30rpx;
+  background-color:	#FAFAD2;
+}
+.list2{
+  font-size: 50rpx;
+  border: 1rpx solid gray;
+  background-color: lightpink;
+}
