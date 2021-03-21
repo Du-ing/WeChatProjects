@@ -1,0 +1,3 @@
+<view class="page-body">
+  <canvas class="canvas" canvas-id="myCanvas"></canvas>
+</view>

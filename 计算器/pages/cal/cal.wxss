@@ -1,0 +1,47 @@
+.page{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10rpx;
+}
+.screen{
+  text-align: right;
+  width: 650rpx;
+  height: 200rpx;
+  line-height: 200rpx;
+  padding: 0 20rpx;
+  margin: 20rpx auto;
+  border: 5rpx #98FB98 solid;
+  border-radius: 20rpx;
+}
+.btnGrooup{
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+}
+.item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 160rpx;
+  height: 160rpx;
+  margin: 10rpx;
+  border: 1rpx gray solid;
+  border-radius: 12rpx;
+}
+.orange{
+  background-color:	#FFA500;
+  color: azure;
+}
+.blue{
+  background-color:	#48D1CC;
+  color: 	#FF6347;
+}
+.button-hover-num{
+  background-color: #00FFFF;
+  opacity: 0.7;
+}
+.other-button-hover{
+  background-color: #FF6347;
+}

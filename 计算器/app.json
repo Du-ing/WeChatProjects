@@ -1,0 +1,14 @@
+{
+  "pages": [
+    "pages/cal/cal",
+    "pages/history/history"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#D4F2E7",
+    "navigationBarTitleText": "计算器",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,13 @@
+page{
+  background-color: #fff;
+  height: 100%;
+}
+.page-body{
+  padding: 20rpx;
+}
+canvas{
+  width: 700rpx;
+  height: 700rpx;
+  background-color: rgb(204, 241, 225);
+  align-items: center;
+}

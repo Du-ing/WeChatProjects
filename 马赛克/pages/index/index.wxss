@@ -1,0 +1,17 @@
+.page{
+  margin: 50rpx;
+}
+.title{
+  color: deeppink;
+}
+.body{
+  display: flex;
+  flex-direction: row;
+  margin: 50rpx 0;
+}
+canvas{
+  width: 600rpx;
+  height: 600rpx;
+  margin: 0 auto;
+  border: 1rpx solid;
+}

@@ -1,0 +1,46 @@
+<form bindsubmit="submitForm">
+  <view class="box row">
+    <label>出生日期</label>
+    <picker name="date" mode="date" value="{{date}}" bindchange="dateChange">
+      <view>{{date}}</view>
+    </picker>
+  </view>
+  <view class="box row">
+    <label>血型</label>
+    <picker name="blood" range="{{bloodItems}}" value="{{blood}}" bindchange="bloodChange">
+      <view>{{blood}}</view>
+    </picker>
+  </view>
+  <view class="box row">
+    <label>医疗状况</label>
+    <textarea name="ylzk" auto-height value="{{ylzk}}"></textarea>
+  </view>
+  <view class="box row">
+    <label>医疗笔记</label>
+    <textarea name="ylbj" auto-height value="{{ylbj}}"></textarea>
+  </view>
+  <view class="box row">
+    <label>过敏反应</label>
+    <textarea name="gmfy" auto-height value="{{gmfy}}"></textarea>
+  </view>
+  <view class="box row">
+    <label>用药</label>
+    <textarea name="yy" auto-height value="{{yy}}"></textarea>
+  </view>
+  <view class="box row">
+    <label>器官捐献者</label>
+    <switch name="qgjx" color="" checked="{{qgjx}}"></switch>
+  </view>
+  <view class="box row">
+    <label>身高</label>
+    <input name="height" class="shortInput" value="{{height}}"></input>
+    <label>体重</label>
+    <input name="weight" class="shortInput" value="{{weight}}"></input>
+  </view>
+  <view class="box roww">
+    <label>紧急联系人</label>
+    <input name="tel" class="longInput" type="digit" value="{{tel}}"></input>
+  </view>
+  <button form-type="submit">完成创建</button>
+  <button bindtap="delMyCard">删除医疗急救卡</button>
+</form>

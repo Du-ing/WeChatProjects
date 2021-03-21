@@ -1,0 +1,4 @@
+/* pages/form/form.wxss */
+label{
+  width: 300rpx;
+}

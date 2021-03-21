@@ -1,0 +1,25 @@
+<view class="page">
+  <view class="lunbo">
+    <swiper autoplay circular indicator-dots indicator-color="#008B8B" indicator-active-color="#FF6347"
+     easing-function="easeInOutCubic">
+     <block class="swiper-item" wx:for="{{swiperImages}}">
+      <swiper-item>
+        <image class="swiperPic" src="{{item}}" mode="scaleToFill"></image>
+      </swiper-item>
+     </block>
+    </swiper>
+  </view>
+  
+  <view class="songList">
+    <view class="song" wx:for="{{musicList}}" bindtap="playMusic" id="{{index}}">
+      <image class="musicPic" src="{{item.musicPic}}" mode="scaleToFill"></image>
+      <text style="font-size:40rpx; color:#556B2F">{{item.name}}</text>
+      <text style="font-size:30rpx; color:#FFA500">{{item.singer}}</text>
+    </view>
+  </view>
+
+  <view class="player">
+    <audio id="myPlayer" controls poster="{{musicPic}}" author="{{singer}}" 
+    name="{{name}}" src="{{musicUrl}}" bindtap="change"></audio>
+  </view>
+</view>

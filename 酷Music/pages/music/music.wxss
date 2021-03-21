@@ -1,0 +1,38 @@
+.page{
+  margin: 10rpx;
+  background-color:#FFEBCD;
+}
+swiper{
+  height: 580rpx;
+  width: 100vw;
+  margin-bottom: 20rpx;
+}
+.swiperPic{
+  width: 98%;
+  border-radius: 30rpx;
+}
+.songList{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-bottom: 150rpx;
+}
+.song{
+  display: flex;
+  flex-direction: column;
+  width: 33%;
+  margin: 10rpx auto;
+  align-items: center;
+}
+.musicPic{
+  height: 220rpx;
+  width: 220rpx;
+  border-radius: 20rpx;
+}
+audio{
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

@@ -1,0 +1,13 @@
+<view class="page">
+  <view class="title">
+    使用说明：打开图片，拖动手指在需要打马赛克的地方滑动。
+  </view>
+  <view class="body">
+    <button bindtap="click" size="mini">打开</button>
+    <button bindtap="cover" size="mini">马赛克</button>
+    <button bindtap="clear" size="mini">清除</button>
+    <button bindtap="save" size="mini">预览</button>
+  </view>
+  <canvas class="canvas" canvas-id="myCanvas" bindtouchstart="start"
+  bindtouchmove="move" bindtouchend="end"></canvas>
+</view>

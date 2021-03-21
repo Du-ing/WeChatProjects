@@ -1,0 +1,38 @@
+<view class="page">
+  <view class="screen">{{result}}</view>
+
+  <view class="btnGrooup">
+    <view class="item orange" hover-class="other-button-hover" id="{{id1}}" bindtap="clickButton">历史</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id2}}" bindtap="clickButton">C</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id3}}" bindtap="clickButton">←</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id4}}" bindtap="clickButton">÷</view>
+  </view>
+
+  <view class="btnGrooup">
+    <view class="item blue" hover-class="button-hover-num" id="{{id5}}" bindtap="clickButton">7</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id6}}" bindtap="clickButton">8</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id7}}" bindtap="clickButton">9</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id8}}" bindtap="clickButton">×</view>
+  </view>
+
+  <view class="btnGrooup">
+    <view class="item blue" hover-class="button-hover-num" id="{{id9}}" bindtap="clickButton">4</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id10}}" bindtap="clickButton">5</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id11}}" bindtap="clickButton">6</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id12}}" bindtap="clickButton">-</view>
+  </view>
+
+  <view class="btnGrooup">
+    <view class="item blue" hover-class="button-hover-num" id="{{id13}}" bindtap="clickButton">1</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id14}}" bindtap="clickButton">2</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id15}}" bindtap="clickButton">3</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id16}}" bindtap="clickButton">+</view>
+  </view>
+
+  <view class="btnGrooup">
+    <view class="item orange" hover-class="other-button-hover" id="{{id17}}" bindtap="clickButton">±</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id18}}" bindtap="clickButton">0</view>
+    <view class="item blue" hover-class="button-hover-num" id="{{id19}}" bindtap="clickButton">.</view>
+    <view class="item orange" hover-class="other-button-hover" id="{{id20}}" bindtap="clickButton">=</view>
+  </view>
+</view>

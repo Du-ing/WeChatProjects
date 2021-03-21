@@ -1,0 +1,18 @@
+<view class="page">
+  <view class="videoPlay">
+    <video id="myPlayer" src="{{mvUrl}}" autoplay danmu-btn enable-danmu enable-play-gesture></video>
+  </view>
+
+  <view class="danmu">
+    <input type="text" value="{{danmu}}" placeholder="请输入弹幕" bindinput="inputDanmu"/>
+    <button bindtap="sendMyDanmu">发送弹幕</button>
+  </view>
+
+  <view class="mvList">
+    <view class="mv" wx:for="{{mvList}}" bindtap="playMv" id="{{index}}">
+      <image class="cover" src="{{item.coverPic}}" mode="widthFix"></image>
+      <text style="color:#228B22; font-size:35rpx">{{item.mvName}}</text>
+      <text style="color:#FFA500; font-size:30rpx">{{item.artist}}</text>
+    </view>
+  </view>
+</view>

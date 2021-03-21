@@ -1,0 +1,45 @@
+.top{
+  display: flex;
+  flex-direction: row;
+  margin: 20rpx 30rpx;
+}
+.input{
+  width: 80%;
+  background-color: rgb(219, 252, 218);
+  border: 2rpx solid #BDB76B;
+  border-radius: 15rpx;
+}
+.icon{
+  width: 10%;
+  margin-left: 40rpx;
+}
+.body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-size: 60rpx;
+}
+.city{
+  font-size: 80rpx;
+}
+.bottom{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+}
+.left{
+  font-size: 80rpx;
+  width: 50%;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+}
+.wind{
+  font-size: 60rpx;
+}
+.temp{
+  font-size: 60rpx;
+}

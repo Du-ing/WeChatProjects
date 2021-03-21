@@ -1,0 +1,27 @@
+.page{
+  text-align: center;
+  padding-top: 10rpx;
+  display: flex;
+  flex-direction: column;
+}
+view{
+  align-items: center;
+}
+.clean{
+  width: 360rpx;
+  height: 125rpx;
+  line-height: 125rpx;
+  font-size: 30rpx;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50rpx;
+  padding-top: 10rpx;
+  padding-bottom: 10rpx;
+  background-color: lightskyblue;
+  color: blue;
+  border: solid 1px #7d0cda;
+}
+.button-hover{
+  background-color: green;
+  opacity: 0.7;
+}

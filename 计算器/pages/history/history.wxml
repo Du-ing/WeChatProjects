@@ -1,0 +1,6 @@
+<view class="page">
+  <block wx:for="{{exprs}}" wx:key="item">
+    <view>{{item}}</view>
+  </block>
+  <view class="clean" bindtap="clickButton" hover-class="button-hover" id="{{id1}}">清空记录</view>
+</view>

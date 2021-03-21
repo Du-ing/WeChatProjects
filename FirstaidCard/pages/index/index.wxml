@@ -1,0 +1,43 @@
+<view class="container" wx:if="{{!myCard}}">
+  <button bindtap="goToForm">创建医疗急救卡</button>
+</view>
+<view wx:else>
+  <view class="box row">
+    <label>出生日期</label>
+    <text>{{myCard.date}}</text>
+    <label>血型</label>
+    <text>{{myCard.blood}}</text>
+  </view>
+  <view class="box row">
+    <label>身高</label>
+    <text>{{myCard.height}}</text>
+    <label>体重</label>
+    <text>{{myCard.weight}}</text>
+  </view>
+  <view class="box col">
+    <label>医疗状况</label>
+    <text>{{myCard.ylzk}}</text>
+  </view>
+  <view class="box col">
+    <label>医疗笔记</label>
+    <text>{{myCard.ylbj}}</text>
+  </view>
+  <view class="box col">
+    <label>过敏反应</label>
+    <text>{{myCard.gmfy}}</text>
+  </view>
+  <view class="box col">
+    <label>用药</label>
+    <text>{{myCard.yy}}</text>
+  </view>
+  <view class="box col">
+    <label>器官捐献者</label>
+    <text>{{myCard.qgjx?'是':'否'}}</text>
+  </view>
+  <view class="box col">
+    <label>紧急联系人</label>
+    <text>{{myCard.tel}}</text>
+  </view>
+  <button bindtap="makeCall">联系紧急负责人</button>
+  <button bindtap="goToForm">编辑医疗急救卡</button>
+</view>

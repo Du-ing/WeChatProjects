@@ -1,0 +1,34 @@
+<view>
+  <view class="box">
+    <view class="title">会议主题</view>
+    <image src="../images/theme.png"></image>
+    <view class="content">
+      <text>
+        上海主题的一幅抽象画
+      </text>
+    </view>
+  </view>
+  <view class="box">
+    <view class="title">活动背景</view>
+    <view class="content">
+      <text>武汉理工大学软件1805杜俊开发的微信会议小程序</text>
+    </view>
+  </view>
+  <view class="box">
+    <view class="title">分享嘉宾</view>
+    <view class="content">
+      <view class="bar" wx:for="{{guests}}" wx:key="index">
+        <image class="avatar" src="{{item.avatar}}" mode="widthFix"></image>
+        <text>{{item.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="box">
+    <view class="title">会议地点</view>
+    <view class="content">
+      <text>2020/5/20~2020/5/23：武汉</text>
+      <map latitude="30.514676" longitude="114.339401"></map>
+      <button type="primary" bindtap="showGuide">查看详情</button>
+    </view>
+  </view>
+</view>

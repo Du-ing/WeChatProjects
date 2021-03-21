@@ -1,0 +1,13 @@
+{
+  "pages":[
+    "pages/weather/weather"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#AFEEEE",
+    "navigationBarTitleText": "天气查询",
+    "navigationBarTextStyle":"black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

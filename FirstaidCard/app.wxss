@@ -1,0 +1,26 @@
+
+button{
+ background-color: red;
+ color: white;
+ margin: 20rpx;
+}
+label{
+  color: red;
+  margin-right: 25rpx;
+}
+text{
+  margin-right: 25rpx;
+}
+.box{
+  border-bottom: 1rpx solid silver;
+  margin: 10rpx 20rpx;
+  padding: 10rpx;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+}
